@@ -12,9 +12,32 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+h4,
+h1 {
+  padding-left: 50px;
+}
+.card-header {
+  color: black;
+}
+.form-group > .btn {
+  width: 100%;
 
+  text-align: start !important;
+}
+.btn-primary {
+  margin-top: 10px;
+  margin-right: 18%;
+  float: right;
+}
+
+.card {
+  width: 65%;
+  margin: auto;
+}
+.cardfinal {
+  height: 341px;
+}
 .App-header {
-  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
